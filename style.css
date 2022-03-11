@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color:white;
+    color: rgb(24, 24, 24);
+    font-family: 'Poppins', 'sans-serif';
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+
+}
+
+.title{
+    flex-direction: column;
+    line-height: 28px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+
+}
+
+a{
+    color:rgb(24, 24, 24) ;
+}
+
+a:hover{
+    color:rgb(0, 173, 136) ;
+    transition: 0.3s all;
+}
+
+h1{
+    font-weight: 500;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 60px;
+    line-height: 70px;
+    padding-top: 17%;
+}
+
+p{
+    line-height: 20px;
+    max-width: 580px;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 400;
+    padding-top: 3%;
+}
+span{
+    color: rgb(0, 173, 136);
+}
+
+article{
+    width: 33vw;
+    
+}
+
+form{
+    padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    
+}
+
+
+input{
+    margin-top: 20px;
+    height: 40px;
+    padding: 10px;
+    border: 2px #6f7e8a solid;
+    border-radius: 20px;
+    
+    font-size: 17px;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 400;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn button{
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 500;
+    background-color:rgb(0, 173, 136) ;
+    width: 70%;
+    margin-top: 20px;
+    height: 70%;
+    padding: 10px;
+    font-size: 1.3em;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+
+}
+

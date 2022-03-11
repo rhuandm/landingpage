@@ -1,0 +1,51 @@
+@media screen and (max-width: 760px){
+    
+    header{
+        flex-direction: column;
+        padding-top: 15%;
+
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    h2{
+        
+        padding-top: 0;
+        font-size: 35px;
+        text-align: center;
+        line-height: 38px;
+
+    }
+
+    p{
+        text-align: center;
+        max-width: 500px;
+    }
+
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    input{
+        align-self: center;
+        width: 65%;
+    }
+
+    
+
+    .btn button{
+        align-self: center;
+    }
+
+    article{
+        display: none;
+    }
+
+    ul{
+        padding-top: 2%;
+        text-align: center;
+    }
+}
